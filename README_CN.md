@@ -1,10 +1,10 @@
-# EHE-DETR
+# EHE-DFINE
 
 [English](README.md) | 简体中文
 
 **基于自适应超图推理与高分辨率特征增强的航拍图像小目标检测**
 
-EHE-DETR 基于 DEIM / D-FINE，通过并行的高效特征提取与自适应超图推理增强主干，并利用浅层高分辨率特征补充小目标细节，保留 stride 8/16/32 三尺度检测结构。
+EHE-DFINE 基于 DEIM / D-FINE，通过并行的高效特征提取与自适应超图推理增强主干，并利用浅层高分辨率特征补充小目标细节，保留 stride 8/16/32 三尺度检测结构。
 
 - **EFE**：部分通道空间卷积与逐点通道交互，高效提取局部特征。
 - **AHR**：自适应区域原型与双向超图消息传递，建模高阶上下文。
@@ -17,11 +17,11 @@ AP 为 IoU=0.50:0.95 的平均精度，精度单位为 %，参数量单位为 M�
 | 数据集 | 划分 | 输入 | 模型 | AP50 | AP | 参数量 | GFLOPs |
 | --- | --- | --- | --- | ---: | ---: | ---: | ---: |
 | VisDrone-DET2019 | val | 800×800 | D-FINE-S | 48.1 | 29.3 | 10.2 | 37.3 |
-| VisDrone-DET2019 | val | 800×800 | **EHE-DETR-S** | **53.6** | **33.1** | 12.6 | 65.4 |
+| VisDrone-DET2019 | val | 800×800 | **EHE-DFINE-S** | **53.6** | **33.1** | 12.6 | 65.4 |
 | AI-TODv2 | test | 800×800 | D-FINE-S | 54.1 | 24.7 | 10.2 | 37.3 |
-| AI-TODv2 | test | 800×800 | **EHE-DETR-S** | **59.7** | **27.8** | 12.6 | 65.4 |
+| AI-TODv2 | test | 800×800 | **EHE-DFINE-S** | **59.7** | **27.8** | 12.6 | 65.4 |
 | TinyPerson | test | 1024×1024 | D-FINE-S | 30.7 | 11.8 | 10.2 | 59.3 |
-| TinyPerson | test | 1024×1024 | **EHE-DETR-S** | **35.9** | **13.8** | 12.6 | 105.7 |
+| TinyPerson | test | 1024×1024 | **EHE-DFINE-S** | **35.9** | **13.8** | 12.6 | 105.7 |
 
 ### 消融实验
 
@@ -121,6 +121,6 @@ python experiment.py summarize --output outputs
 
 ## 引用与致谢
 
-论文：**EHE-DETR：基于自适应超图推理与高分辨率特征增强的航拍图像小目标检测**。
+论文：**EHE-DFINE：基于自适应超图推理与高分辨率特征增强的航拍图像小目标检测**。
 
 基于 [DEIM](https://github.com/ShihuaHuang95/DEIM) / [D-FINE](https://github.com/Peterande/D-FINE)。
