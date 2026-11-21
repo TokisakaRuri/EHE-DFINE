@@ -1,10 +1,10 @@
-# EHE-DETR
+# EHE-DFINE
 
 English | [简体中文](README_CN.md)
 
 **Small Object Detection in Aerial Images via Adaptive Hypergraph Reasoning and High-Resolution Feature Enhancement**
 
-Built on DEIM / D-FINE, EHE-DETR combines efficient local feature extraction with adaptive hypergraph reasoning in parallel backbone branches. Shallow high-resolution features restore fine details while retaining three detection scales at strides 8, 16, and 32.
+Built on DEIM / D-FINE, EHE-DFINE combines efficient local feature extraction with adaptive hypergraph reasoning in parallel backbone branches. Shallow high-resolution features restore fine details while retaining three detection scales at strides 8, 16, and 32.
 
 - **EFE**: Partial-channel spatial convolution and pointwise channel mixing for efficient local feature extraction.
 - **AHR**: Adaptive regional prototypes and bidirectional hypergraph message passing for higher-order context modeling.
@@ -121,6 +121,6 @@ These commands export configurations, check forward and backward passes, measure
 
 ## Citation and Acknowledgements
 
-Paper: **EHE-DETR: Small Object Detection in Aerial Images via Adaptive Hypergraph Reasoning and High-Resolution Feature Enhancement**.
+Paper: **EHE-DFINE: Small Object Detection in Aerial Images via Adaptive Hypergraph Reasoning and High-Resolution Feature Enhancement**.
 
 Built on [DEIM](https://github.com/ShihuaHuang95/DEIM) / [D-FINE](https://github.com/Peterande/D-FINE).
