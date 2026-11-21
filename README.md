@@ -17,11 +17,11 @@ AP is averaged over IoU thresholds from 0.50 to 0.95. Accuracy is reported in %,
 | Dataset | Split | Input | Model | AP50 | AP | Params (M) | GFLOPs |
 | --- | --- | --- | --- | ---: | ---: | ---: | ---: |
 | VisDrone-DET2019 | val | 800×800 | D-FINE-S | 48.1 | 29.3 | 10.2 | 37.3 |
-| VisDrone-DET2019 | val | 800×800 | **EHE-DETR-S** | **53.6** | **33.1** | 12.6 | 65.4 |
+| VisDrone-DET2019 | val | 800×800 | **EHE-DFINE-S** | **53.6** | **33.1** | 12.6 | 65.4 |
 | AI-TODv2 | test | 800×800 | D-FINE-S | 54.1 | 24.7 | 10.2 | 37.3 |
-| AI-TODv2 | test | 800×800 | **EHE-DETR-S** | **59.7** | **27.8** | 12.6 | 65.4 |
+| AI-TODv2 | test | 800×800 | **EHE-DFINE-S** | **59.7** | **27.8** | 12.6 | 65.4 |
 | TinyPerson | test | 1024×1024 | D-FINE-S | 30.7 | 11.8 | 10.2 | 59.3 |
-| TinyPerson | test | 1024×1024 | **EHE-DETR-S** | **35.9** | **13.8** | 12.6 | 105.7 |
+| TinyPerson | test | 1024×1024 | **EHE-DFINE-S** | **35.9** | **13.8** | 12.6 | 105.7 |
 
 ### Ablation Study
 
