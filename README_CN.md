@@ -119,8 +119,6 @@ python experiment.py summarize --output outputs
 | 模块替换 | `engine/extre_module/custom_nn/conv_module/efe_ahr_compare.py` |
 | 模型构建 | `engine/extre_module/tasks.py` |
 
-## 引用与致谢
-
-论文：**EHE-DFINE：基于自适应超图推理与高分辨率特征增强的航拍图像小目标检测**。
+## 致谢
 
 基于 [DEIM](https://github.com/ShihuaHuang95/DEIM) / [D-FINE](https://github.com/Peterande/D-FINE)。
