@@ -1,7 +1,5 @@
 # EHE-DFINE
 
-English | [简体中文](README_CN.md)
-
 **Small Object Detection in Aerial Images via Adaptive Hypergraph Reasoning and High-Resolution Feature Enhancement**
 
 Built on DEIM / D-FINE, EHE-DFINE combines efficient local feature extraction with adaptive hypergraph reasoning in parallel backbone branches. Shallow high-resolution features restore fine details while retaining three detection scales at strides 8, 16, and 32.
