@@ -119,8 +119,6 @@ These commands export configurations, check forward and backward passes, measure
 | Module comparisons | `engine/extre_module/custom_nn/conv_module/efe_ahr_compare.py` |
 | Model builder | `engine/extre_module/tasks.py` |
 
-## Citation and Acknowledgements
-
-Paper: **EHE-DFINE: Small Object Detection in Aerial Images via Adaptive Hypergraph Reasoning and High-Resolution Feature Enhancement**.
+## Acknowledgements
 
 Built on [DEIM](https://github.com/ShihuaHuang95/DEIM) / [D-FINE](https://github.com/Peterande/D-FINE).
